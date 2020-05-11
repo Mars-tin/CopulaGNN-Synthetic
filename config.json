@@ -1,0 +1,35 @@
+{
+    "d0": 10,
+    "d1": 10,
+    "node": 300,
+    "feature": 6000,
+    "gamma": 0.1,
+    "seed": 20,
+    "tau": [0.01, 0.1, 1, 10, 100],
+    "drop_rate": [0.02, 0.025],
+    "setting": [["xw", "li"], ["daxw", "li"], ["daxw", "i"]],
+    "log_interval": 10,
+    "patience": 30,
+    "train_size": 100,
+    "valid_size": 100,
+    "test_size": 100,
+    "mlp": {
+        "checkpoint": "./checkpoints/mlp/",
+        "learning_rate": 1e-3,
+        "num_epochs": 5000,
+        "hidden_layer": 16
+    },
+    "gcn": {
+        "checkpoint": "./checkpoints/gcn/",
+        "learning_rate": 1e-3,
+        "num_epochs": 5000,
+        "hidden_layer": 16
+    },
+    "gat": {
+        "checkpoint": "./checkpoints/gat/",
+        "learning_rate": 1e-3,
+        "num_epochs": 5000,
+        "hidden_layer": 4,
+        "num_heads": 4
+    }
+}
