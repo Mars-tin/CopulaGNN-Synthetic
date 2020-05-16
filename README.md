@@ -9,4 +9,4 @@ Run `bin/simulate.sh` to see instructions.
 * Run `bin/simulate.sh generate` | generate synthetic data files;
 * Run `bin/simulate.sh train` | train models.
 
-You must `setup` before `generate` & `train`.
+Please `init` and `setup` before `generate` & `train`.
