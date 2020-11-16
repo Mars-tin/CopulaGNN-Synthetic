@@ -1,4 +1,6 @@
-# CovGNN
+# CopulaGNN
+https://arxiv.org/abs/2010.02089
+Synthetic Experiments.
 
 ## Usage
 Make the shell script executable: `chmod +x bin/simulate.sh`.
