@@ -1,6 +1,5 @@
 # CopulaGNN
-https://arxiv.org/abs/2010.02089
-Synthetic Experiments.
+Synthetic Experiments for CopulaGNN: https://arxiv.org/abs/2010.02089
 
 ## Usage
 Make the shell script executable: `chmod +x bin/simulate.sh`.
